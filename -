@@ -1,5 +1,0 @@
-# Managed deployment provides MANUS_PROJECT_ID and MANUS_JWT_SECRET.
-DATABASE_URL=mysql://user:password@host:3306/cyberustoz
-# Required for the protected admin panel. Configure via a protected secret manager; never commit a real value.
-# Use a unique password of 12+ characters with uppercase, lowercase, and a number.
-CYBERUSTOZ_ADMIN_PASSWORD=replace-with-a-unique-strong-password
