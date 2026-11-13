@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /manus-oauth/
+Disallow: /api/scheduled/
+Disallow: /manus-storage/
+Disallow: /__manus/
+Disallow: /__system__/
+
+Sitemap: https://cyberustoz-76gnerxm.manus.space/sitemap.xml

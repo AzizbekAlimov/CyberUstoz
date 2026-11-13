@@ -1,0 +1,1 @@
+import{c as a}from"./index-NRokkdJn.js";const o=a("Play",[["polygon",{points:"6 3 20 12 6 21 6 3",key:"1oa8hb"}]]);const t=a("Square",[["rect",{width:"18",height:"18",x:"3",y:"3",rx:"2",key:"afitv7"}]]);export{o as P,t as S};

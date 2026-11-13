@@ -1,0 +1,1 @@
+function n(i){const s=i.replace(/\D/g,""),c=(s.startsWith("998")?s.slice(3):s).slice(0,9);if(!c)return"+998";const l=c.slice(0,2),e=c.slice(2);let t=`+998 (${l}`;return l.length===2&&(t+=")"),e&&(t+=` ${e.slice(0,3)}`),e.length>3&&(t+=` ${e.slice(3,5)}`),e.length>5&&(t+=` ${e.slice(5,7)}`),t}function r(i){return/^998\d{9}$/.test(i.replace(/\D/g,""))}export{n as f,r as i};
